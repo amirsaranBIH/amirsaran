@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", Arial, sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Shadows Into Light Two", Helvetica, serif;
+  color: #0027e8;
+  text-align: center;
+}
+
+h1 {
+  font-size: 7.5rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.section {
+  scroll-snap-align: start;
+  height: 100vh;
+  background-repeat: repeat;
+  padding: 4em 0;
+}
+
+.social-media img {
+  height: 20px;
+  width: 20px;
+}
+
+.social-media a + a {
+  margin-left: 0.75em;
+}
+
+.section-header {
+  margin: 0;
+}
+
+.hero {
+  background-image: url("/images/bg-patterns/hero-background-pattern.png");
+}
+.projects {
+  background-image: url("/images/bg-patterns/projects-background-pattern.png");
+}
+.about {
+  background-image: url("/images/bg-patterns/about-background-pattern.png");
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero .container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2em 0;
+}
+
+.arrow-down {
+  text-align: center;
+}
+
+.arrow-down img {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.email {
+  margin-right: 1em;
+}
+
+.flag + .flag {
+  margin-left: 0.25em;
+}
+
+.flag img {
+  width: 25px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.headlines h2 {
+  color: initial;
+}
+
+.section-description {
+  max-width: 900px;
+  text-align: center;
+  margin: 2em auto;
+  line-height: 1.5em;
+}
+
+.link {
+  color: #3557fc;
+}
+
+.link:hover {
+  color: #3557fc;
+  text-decoration: underline;
+}
+
+.project-carousel {
+  margin-top: 3em;
+}
+
+#project-carousel {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  transform: translateY(100%);
+  transition: transform 0.25s ease-out;
+}
+
+.carousel-item:hover .carousel-caption {
+  transform: translateY(0);
+}
+
+.carousel-caption h3 {
+  font-family: "Shadows Into Light Two", Helvetica, serif;
+}
+
+.carousel-caption p {
+  max-width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+.carousel-caption a {
+  display: inline-block;
+  margin-top: 0.5em;
+  color: #3557fc;
+}
+
+.carousel-caption a:hover {
+  color: #0027e8;
+}
+
+.carousel-item img {
+  width: 100%;
+}
+
+.carousel-indicators {
+  bottom: -3em;
+}
+
+.carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  background-color: #0027e8;
+  opacity: 0.5;
+}
+
+.carousel-indicators li + li {
+  margin-left: 0.9em;
+}
+
+.carousel-indicators li.active {
+  background-color: #0027e8;
+  opacity: 1;
+}
+
+.resume {
+  margin-top: 3em;
+}
+
+.resume h3 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.resume img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  opacity: 0.5;
+}
+
+.resume-buttons {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+.resume-buttons a + a {
+  margin-left: 1em;
+}
+
+.resume-buttons a {
+  min-width: 250px;
+  text-align: center;
+  background-color: #3557fc;
+  color: white;
+  padding: 0.5em 1em;
+  text-transform: uppercase;
+}
