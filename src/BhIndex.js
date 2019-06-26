@@ -101,7 +101,7 @@ function UsIndex() {
                     dizajniram web stranice za klijente.
                   </p>
                   <a
-                    href="https://github.com/amirsaranBIH/amirsaran/public/projects/team-alliance"
+                    href="https://github.com/amirsaranBIH/amirsaran/tree/master/public/projects/team-alliance"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -129,7 +129,7 @@ function UsIndex() {
                     stranicu za prikazivanje njegovih snimaka i malo o njemu.
                   </p>
                   <a
-                    href="https://github.com/amirsaranBIH/amirsaran/public/projects/john-lexter"
+                    href="https://github.com/amirsaranBIH/amirsaran/tree/master/public/projects/john-lexter"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -153,7 +153,7 @@ function UsIndex() {
                     slikama i odličnim UX dizajnom.
                   </p>
                   <a
-                    href="https://github.com/amirsaranBIH/amirsaran/public/projects/memory"
+                    href="https://github.com/amirsaranBIH/amirsaran/tree/master/public/projects/memory"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -178,7 +178,7 @@ function UsIndex() {
                     koji sam napravio za klijenta besplatno.
                   </p>
                   <a
-                    href="https://github.com/amirsaranBIH/amirsaran/public/projects/sadpm"
+                    href="https://github.com/amirsaranBIH/amirsaran/tree/master/public/projects/sadpm"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -206,7 +206,7 @@ function UsIndex() {
                     PSD datoteke za praksu.
                   </p>
                   <a
-                    href="https://github.com/amirsaranBIH/amirsaran/public/projects/worldstory"
+                    href="https://github.com/amirsaranBIH/amirsaran/tree/master/public/projects/worldstory"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -234,7 +234,7 @@ function UsIndex() {
                     da odlučite.
                   </p>
                   <a
-                    href="https://github.com/amirsaranBIH/amirsaran/public/projects/color-choice"
+                    href="https://github.com/amirsaranBIH/amirsaran/tree/master/public/projects/color-choice"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

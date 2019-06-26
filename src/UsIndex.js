@@ -101,7 +101,7 @@ function UsIndex() {
                     development and design for clients.
                   </p>
                   <a
-                    href="https://github.com/amirsaranBIH/amirsaran/public/projects/team-alliance"
+                    href="https://github.com/amirsaranBIH/amirsaran/tree/master/public/projects/team-alliance"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -129,7 +129,7 @@ function UsIndex() {
                     showcasing his shots and a little bit about him.
                   </p>
                   <a
-                    href="https://github.com/amirsaranBIH/amirsaran/public/projects/john-lexter"
+                    href="https://github.com/amirsaranBIH/amirsaran/tree/master/public/projects/john-lexter"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -153,7 +153,7 @@ function UsIndex() {
                     a great UX design.
                   </p>
                   <a
-                    href="https://github.com/amirsaranBIH/amirsaran/public/projects/memory"
+                    href="https://github.com/amirsaranBIH/amirsaran/tree/master/public/projects/memory"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -178,7 +178,7 @@ function UsIndex() {
                     is a website I made for them for free.
                   </p>
                   <a
-                    href="https://github.com/amirsaranBIH/amirsaran/public/projects/sadpm"
+                    href="https://github.com/amirsaranBIH/amirsaran/tree/master/public/projects/sadpm"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -206,7 +206,7 @@ function UsIndex() {
                     just the PSD file to practice.
                   </p>
                   <a
-                    href="https://github.com/amirsaranBIH/amirsaran/public/projects/worldstory"
+                    href="https://github.com/amirsaranBIH/amirsaran/tree/master/public/projects/worldstory"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -233,7 +233,7 @@ function UsIndex() {
                     can use ColorChoice to help you decide.
                   </p>
                   <a
-                    href="https://github.com/amirsaranBIH/amirsaran/public/projects/color-choice"
+                    href="https://github.com/amirsaranBIH/amirsaran/tree/master/public/projects/color-choice"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
