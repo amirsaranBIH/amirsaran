@@ -292,7 +292,7 @@ function UsIndex() {
 
             <div className="resume-buttons">
               <a
-                href="/AmirŠaran_Resume_ENG.pdf"
+                href="/AmirŠaran_Resume_BIH.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Pogledaj onlajn PDF"
@@ -300,7 +300,7 @@ function UsIndex() {
                 Pogledaj Onlajn
               </a>
               <a
-                href="/AmirŠaran_Resume_ENG.pdf"
+                href="/AmirŠaran_Resume_BIH.pdf"
                 title="Preuzmi rezime"
                 download
               >
