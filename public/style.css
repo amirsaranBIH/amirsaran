@@ -31,7 +31,7 @@ a:hover {
 
 .section {
   scroll-snap-align: start;
-  height: 100vh;
+  min-height: 100vh;
   background-repeat: repeat;
   padding: 4em 0;
 }
@@ -201,9 +201,11 @@ a:hover {
 }
 
 .resume-buttons {
+  margin: 0 auto;
   margin-top: 2em;
   display: flex;
   justify-content: center;
+  max-width: 550px;
 }
 
 .resume-buttons a + a {
@@ -211,10 +213,55 @@ a:hover {
 }
 
 .resume-buttons a {
-  min-width: 250px;
+  flex: 1;
   text-align: center;
   background-color: #3557fc;
   color: white;
   padding: 0.5em 1em;
   text-transform: uppercase;
+}
+
+@media only screen and (max-width: 768px) {
+  .resume-buttons {
+    flex-direction: column;
+  }
+
+  .resume-buttons a + a {
+    margin-left: 0;
+    margin-top: 0.5em;
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-media {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .social-media .col-md-6 {
+    padding: 0 !important;
+  }
+
+  .social-media .col-md-6 + .col-md-6 {
+    margin-top: 1em;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
+
+  .carousel-caption p {
+    display: none;
+  }
+
+  .carousel-caption h3 {
+    font-size: 1.25em;
+  }
 }
