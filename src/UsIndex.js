@@ -7,8 +7,8 @@ function UsIndex() {
     <div>
       <section className="hero">
         <div className="container section">
-          <section className="row social-media">
-            <div className="col-md-6">
+          <section className="hero-header">
+            <div className="social-media">
               <a
                 href="https://www.linkedin.com/in/amir%C5%A1aran/"
                 target="_blank"
@@ -24,7 +24,7 @@ function UsIndex() {
                 <img src="/images/github.svg" alt="github-logo-icon" />
               </a>
             </div>
-            <div className="col-md-6">
+            <div className="navigation">
               <Navigation />
             </div>
           </section>
@@ -34,9 +34,11 @@ function UsIndex() {
             <h2>Software and Web Developer</h2>
           </section>
 
-          <a className="arrow-down" data-scroll href="#projects">
-            <img src="/images/arrow-down.svg" alt="arrow-down" />
-          </a>
+          <div className="arrow-down">
+            <a data-scroll href="#projects">
+              <img src="/images/arrow-down.svg" alt="arrow-down" />
+            </a>
+          </div>
         </div>
       </section>
 
@@ -293,18 +295,14 @@ function UsIndex() {
 
             <div className="resume-buttons">
               <a
-                href="/AmirŠaran_Resume_ENG.pdf"
+                href="/Amir_Šaran_CV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="View online PDF"
               >
                 View online
               </a>
-              <a
-                href="/AmirŠaran_Resume_ENG.pdf"
-                title="Download resume"
-                download
-              >
+              <a href="/Amir_Šaran_CV.pdf" title="Download resume" download>
                 Download resume
               </a>
             </div>

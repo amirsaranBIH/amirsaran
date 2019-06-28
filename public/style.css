@@ -29,11 +29,8 @@ a:hover {
   text-decoration: none;
 }
 
-.section {
-  scroll-snap-align: start;
-  min-height: 100vh;
-  background-repeat: repeat;
-  padding: 4em 0;
+img {
+  max-width: 100%;
 }
 
 .social-media img {
@@ -41,20 +38,24 @@ a:hover {
   width: 20px;
 }
 
-.social-media a + a {
-  margin-left: 0.75em;
+.section {
+  min-height: 100vh;
+  background-repeat: repeat;
+  padding: 4em 0;
 }
 
-.section-header {
-  margin: 0;
+.headlines h2 {
+  color: initial;
 }
 
 .hero {
   background-image: url("/images/bg-patterns/hero-background-pattern.png");
 }
+
 .projects {
   background-image: url("/images/bg-patterns/projects-background-pattern.png");
 }
+
 .about {
   background-image: url("/images/bg-patterns/about-background-pattern.png");
 }
@@ -72,6 +73,12 @@ a:hover {
   padding: 2em 0;
 }
 
+.hero-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .arrow-down {
   text-align: center;
 }
@@ -82,47 +89,23 @@ a:hover {
   cursor: pointer;
 }
 
-.email {
-  margin-right: 1em;
-}
-
-.flag + .flag {
-  margin-left: 0.25em;
-}
-
 .flag img {
   width: 25px;
   height: 15px;
   cursor: pointer;
 }
 
-.headlines h2 {
-  color: initial;
+.email {
+  margin-right: 1em;
+  margin-bottom: 0;
 }
 
-.section-description {
-  max-width: 900px;
-  text-align: center;
-  margin: 2em auto;
-  line-height: 1.5em;
+.flag + .flag {
+  margin-left: 0.25em;
 }
 
-.link {
-  color: #3557fc;
-}
-
-.link:hover {
-  color: #3557fc;
-  text-decoration: underline;
-}
-
-.project-carousel {
-  margin-top: 3em;
-}
-
-#project-carousel {
-  width: 90%;
-  margin: 0 auto;
+.social-media a + a {
+  margin-left: 0.75em;
 }
 
 .carousel-caption {
@@ -141,27 +124,6 @@ a:hover {
 
 .carousel-caption h3 {
   font-family: "Shadows Into Light Two", Helvetica, serif;
-}
-
-.carousel-caption p {
-  max-width: 65%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0;
-}
-
-.carousel-caption a {
-  display: inline-block;
-  margin-top: 0.5em;
-  color: #3557fc;
-}
-
-.carousel-caption a:hover {
-  color: #0027e8;
-}
-
-.carousel-item img {
-  width: 100%;
 }
 
 .carousel-indicators {
@@ -184,8 +146,26 @@ a:hover {
   opacity: 1;
 }
 
-.resume {
-  margin-top: 3em;
+.carousel-caption p {
+  max-width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-description {
+  max-width: 900px;
+  text-align: center;
+  margin: 2em auto;
+  line-height: 1.5em;
+}
+
+.link {
+  color: #3557fc;
+}
+
+.link:hover {
+  color: #3557fc;
+  text-decoration: underline;
 }
 
 .resume h3 {
@@ -222,31 +202,13 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
-  .resume-buttons {
+  .hero-header {
     flex-direction: column;
-  }
-
-  .resume-buttons a + a {
-    margin-left: 0;
-    margin-top: 0.5em;
-  }
-
-  .header {
-    display: flex;
     justify-content: center;
   }
 
   .social-media {
-    text-align: center;
-    max-width: 100%;
-  }
-
-  .social-media .col-md-6 {
-    padding: 0 !important;
-  }
-
-  .social-media .col-md-6 + .col-md-6 {
-    margin-top: 1em;
+    margin-bottom: 1em;
   }
 
   h1 {
@@ -263,5 +225,14 @@ a:hover {
 
   .carousel-caption h3 {
     font-size: 1.25em;
+  }
+
+  .resume-buttons {
+    flex-direction: column;
+  }
+
+  .resume-buttons a + a {
+    margin-left: 0;
+    margin-top: 0.5em;
   }
 }
