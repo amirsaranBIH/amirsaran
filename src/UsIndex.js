@@ -275,16 +275,11 @@ function UsIndex() {
               and lots of dedication.
             </p>
             <p>
-              I am learning to design and develop websites from the end of 2016
+              I am learning to design and develop websites from 2016.
               and I am still doing it today with the same passion as when I
               started. I started off in front-end development, but after a year
               into front-end I started doing back-end work with NodeJS and PHP
               and I really enjoy it.
-            </p>
-            <p>
-              Other activities apart from web design and development are
-              football/soccer, video games (League of Legends, Paladins and
-              Hearthstone) and logo design.
             </p>
           </div>
 

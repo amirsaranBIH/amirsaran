@@ -160,11 +160,10 @@ img {
 }
 
 .link {
-  color: #3557fc;
+  color: #3557fc !important;
 }
 
 .link:hover {
-  color: #3557fc;
   text-decoration: underline;
 }
 

@@ -275,15 +275,10 @@ function UsIndex() {
               i dizajnu sa online resursima i puno posvećenosti.
             </p>
             <p>
-              Učim dizajnirati i razvijati web stranice od kraja 2016 i još
+              Učim dizajnirati i razvijati web stranice od 2016. godine i još
               uvijek to radim danas sa istom strašću kao kad sam počeo. Počeo
               sam u front-end razvoju, ali nakon godinu dana u front-end sam
               počeo da radim back-end u NodeJS i PHP i zaista uživam u njemu.
-            </p>
-            <p>
-              Druge aktivnosti osim web dizajna i razvoja su nogomet/fudbal,
-              video igre (League of Legends, Paladins i Hearthstone) i dizajn
-              logotipa.
             </p>
           </div>
 
