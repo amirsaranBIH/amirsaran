@@ -270,7 +270,7 @@ function UsIndex() {
 
           <div className="section-description">
             <p>
-              Moje ime je Amir i imam 19 godina. Dolazim iz Živinica, to je mali
+              Moje ime je Amir i imam 20 godina. Dolazim iz Živinica, to je mali
               grad u Bosni i Hercegovini. Potpuno sam samouk u web tehnologijama
               i dizajnu sa online resursima i puno posvećenosti.
             </p>
