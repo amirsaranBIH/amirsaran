@@ -269,7 +269,7 @@ function UsIndex() {
 
           <div className="section-description">
             <p>
-              My name is Amir and I am 19 years old. I come from Živinice, it's
+              My name is Amir and I am 20 years old. I come from Živinice, it's
               a small city in Bosnia and Herzegovina. I am completely
               self-taught in web technologies and design with online resources
               and lots of dedication.
